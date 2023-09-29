@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Aulas PW JS</title>
+	<meta charset="UTF-8">
+	<script src="JS/Script.js"></script>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+	<h3>EX 1 login</h3>
+	<div id="Logins">
+
+		<div id="Email">
+			Email <input type="email" id="frmemail">
+		</div>
+
+		<div id="Senha">
+			Senha <input type="password" id="frmpassword">
+		</div>
+
+		<button onclick="login()">Realizar login</button>
+
+	</div>
+	<h3>EX 2 operações</h3>
+	<button onclick="somar()">Somar</button>
+	<button onclick="subtrair()">Subtrair</button>
+	<button onclick="multiplicar()">Multiplicar</button>
+	<button onclick="dividir()">Dividir</button>
+	<button onclick="elevar()">Quadrado</button>
+	<button onclick="Raiz()">Raiz</button>
+
+	<div id="AddList">
+		<h3>ADICIONAR ITENS A LISTA</h3>
+		<div class="input-wrapper">
+			<input class="itens" id="addlist" type="text" placeholder="Insira um item a lista"><br>
+		</div>
+
+		<button id="addlist" onclick="addlist()">Clique Aqui</button><br>
+		<ul id="showlist"></ul>
+
+
+		<div id=AddProduct>
+			<h3>ADICIONAR ITENS AO CARRINHO</h3>
+			<div class="input-wrapper">
+				<input class="itens" id="addprodname" type="text" placeholder="Insira o nome do produto">
+				<input class="itens" id="addprodmark" type="text" placeholder="Insira a marca do produto">
+				<input class="itens" id="addprodprice" type="number" placeholder="Insira o preço do produto">
+			</div><br>
+			<button id="addproduct" onclick="addproduct()">Adicione ao carrinho de compras</button><br><br>
+			<h3>Carrinho de Compras</h3><br><br>
+			<ul id="showproduct">
+		</div>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+    color: white;
+
+}
+
+#Logins{
+    display: flex;
+    color: white;
+    background-color: gray;
+    border-radius: 4px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Email{
+    margin-bottom: 10px;
+}
+
+#Senha{
+    margin-bottom: 10px;
+}
